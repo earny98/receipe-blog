@@ -1,0 +1,28 @@
+.actions {
+    padding: 1rem;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    max-width: 80rem;
+
+  }
+  
+  .actions a {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #f9572a, #ff9b05);
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .actions a:hover,
+  .actions a:active {
+    background: linear-gradient(90deg, #fd4715, #f9b241);
+    box-shadow: 0 0 12px rgba(242, 100, 18, 0.8);
+  }
+
+.separator {
+  margin: 0 1rem; /* Add margin for space between links */
+}
